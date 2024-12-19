@@ -1,0 +1,21 @@
+.canvas__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.canvas__section__wrapper {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas__navigation__wrapper {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
