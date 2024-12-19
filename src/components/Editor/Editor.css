@@ -64,7 +64,7 @@
 .color__picker,
 .background__picker,
 .size__picker,
-.editor_text {
+.editor__text {
   &:focus {
     border-color: #eb1c24;
   }
