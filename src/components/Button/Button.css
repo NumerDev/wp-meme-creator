@@ -1,0 +1,29 @@
+.button {
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  background: #eb1c24;
+  color: white;
+}
+
+.secondary {
+  background: #ffffff;
+  color: #eb1c24;
+  border: 2px solid #eb1c24;
+}
