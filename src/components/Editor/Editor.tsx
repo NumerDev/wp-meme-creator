@@ -24,6 +24,7 @@ const Editor = () => {
     setTextContent("");
     setTextColor("#FF0000");
     setTextSize("24");
+    setTextFamily("Arial");
   };
 
   return (

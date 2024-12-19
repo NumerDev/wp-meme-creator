@@ -1,0 +1,13 @@
+.meme__creator__wrapper {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.meme__creator__section {
+  display: flex;
+  gap: 40px;
+}
