@@ -22,6 +22,7 @@
   width: 330px;
   height: 150px;
   padding: 12px;
+  outline: none;
 }
 
 .editor__option {
@@ -62,7 +63,8 @@
 
 .color__picker,
 .background__picker,
-.size__picker {
+.size__picker,
+.editor_text {
   &:focus {
     border-color: #eb1c24;
   }
